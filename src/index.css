@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  background-color: #f4f4f5;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#root {
+  max-width: 480px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04);
+}
